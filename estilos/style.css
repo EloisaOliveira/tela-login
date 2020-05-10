@@ -1,9 +1,12 @@
 body {
     background-color: darkgrey;
+    font-family: sans-serif;
 }
 
 .form {
     width: 400px;
+    margin: auto;
+    padding-top: 40px;
 }
 
 .card {
@@ -11,4 +14,23 @@ body {
     background-color: white;
     padding: 30px;
     border-radius: 5px;
+}
+
+.card-top {
+    text-align: center;
+}
+
+.card-group > label {
+    width: 100%;
+    color: rgb(75, 75, 75);
+}
+
+.img-login {
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.title {
+    color: brown;
 }
