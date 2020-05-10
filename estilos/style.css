@@ -1,0 +1,14 @@
+body {
+    background-color: darkgrey;
+}
+
+.form {
+    width: 400px;
+}
+
+.card {
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
