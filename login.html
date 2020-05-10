@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    <form class="form" action="">
+    <form class="form" action="#">
         <div class="card">
             <div class="card-top">
                 <img class="img-login" src="imagens/user.png" alt="">
@@ -16,7 +16,17 @@
             </div>
             <div class="card-group">
                 <label>Email</label>
-                <input type="email" name="email">
+                <input type="email" name="email" placeholder="Digite seu email..." required>
+            </div>
+            <div class="card-group">
+                <label>Senha</label>
+                <input type="password" name="senha" placeholder="Digite seu senha..." required>
+            </div>
+            <div class="card-group">
+                <label><input type="checkbox"> Lembre-me</label>
+            </div>
+            <div class="card-group btn">
+                <button type="submit">ACESSAR</button>
             </div>
         </div>
     </form>
